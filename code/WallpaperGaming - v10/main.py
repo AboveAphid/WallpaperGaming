@@ -15,7 +15,7 @@ showCV2 = True
 # Create object 
 root = Tk() 
 
-root.title('Wallpaper Gaming v9')
+root.title('Wallpaper Gaming v10')
 
 root.iconbitmap("logo.ico")
 
