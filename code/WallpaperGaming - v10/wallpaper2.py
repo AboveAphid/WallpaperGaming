@@ -2,7 +2,7 @@
 
 import os, ctypes
 
-WALLPAPEREXE_PATH = fr"C:\Users\{os.getlogin()}\Desktop\WallpaperGaming\wallpaper-x86_64-pc-windows\wallpaper.exe"
+WALLPAPEREXE_PATH = fr".\wallpaper-x86_64-pc-windows\wallpaper.exe"
 
 def set_wallpaper(path) -> None:
     path = os.path.abspath(path)
